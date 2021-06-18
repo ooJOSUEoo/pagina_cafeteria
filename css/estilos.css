@@ -67,6 +67,7 @@ header .textos h3{
     background: url('../img/bg-textura.png');
     background-repeat: repeat;
 }
+/*-----Acerca de-----*/
 .main .acerca-de .contenedor{
     overflow: visible;
     position: relative;
@@ -103,4 +104,54 @@ header .textos h3{
 .main .acerca-de article p{
     line-height: 28px;
     margin-bottom: 15px;
+}
+/*-----Menu-----*/
+.main .menu{
+    padding-top: 570px;
+    margin-bottom: 50px;
+}
+.main .menu .titulo{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px; 
+}
+.main .menu .contenedor-menu,
+.main .menu .contenedor-menu2{
+    border: 1px solid #000;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+.main .menu article{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.main .menu .categoria{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.main .menu .platillo{
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 4px dotted #000;
+    overflow: hidden;
+}
+.main .menu .nombre{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;
+}
+.main .menu .precio{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: right;
+}
+.main .menu article .descripcion{
+    font-size: 16px;
+    color: #676767;
+    clear: both;
 }
