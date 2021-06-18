@@ -26,12 +26,14 @@ $(document).ready(function () {
         
     }
 
-//scroll elementos menu
+//scroll con menu
+//declarar variables de acerca de, menu, galeria y ubicacion
     var acercaDe = $('#acerca-de').offset().top,
         menu = $('#platillos').offset().top,
         galeria = $('#galeria').offset().top,
         ubicacion = $('#ubicacion').offset().top;
 
+//scroll a acerca de
     $('#btn-acerca-de').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
@@ -39,6 +41,7 @@ $(document).ready(function () {
         }, 500);
     });
 
+//scroll a menu
     $('#btn-menu').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
@@ -46,6 +49,7 @@ $(document).ready(function () {
         }, 500);
     });
 
+//scroll a galeria
     $('#btn-galeria').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
@@ -53,6 +57,7 @@ $(document).ready(function () {
         }, 500);
     });
 
+//scroll a ubicacion
     $('#btn-ubicacion').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
