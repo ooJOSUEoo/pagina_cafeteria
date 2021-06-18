@@ -22,9 +22,7 @@ $(document).ready(function () {
             opacity:1,
             marginTop:'-52px'
         }, 1500);
-    } else {
-        
-    }
+    } 
 
 //scroll con menu
 //declarar variables de acerca de, menu, galeria y ubicacion
