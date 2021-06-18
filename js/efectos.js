@@ -35,7 +35,7 @@ $(document).ready(function () {
     $('#btn-acerca-de').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: acercaDe - 50
+            scrollTop: acercaDe - 140
         }, 500);
     });
 
