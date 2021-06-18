@@ -62,3 +62,45 @@ header .textos h3{
     font-size: 25px;
     font-style: italic;
 }
+/*------Main------*/
+.main{
+    background: url('../img/bg-textura.png');
+    background-repeat: repeat;
+}
+.main .acerca-de .contenedor{
+    overflow: visible;
+    position: relative;
+    
+}
+.main .acerca-de .foto{
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+}
+.main .acerca-de .foto img{
+    vertical-align: top;
+    width: 100%;
+}
+.main .acerca-de article{
+    background: #fff;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    /*top: 500px;*/
+    top: 150px;
+    z-index: 1;
+    float: right;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+}
+.main .acerca-de article h3{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.main .acerca-de article p{
+    line-height: 28px;
+    margin-bottom: 15px;
+}
